@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(41, 114, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 13%;
+    padding-top: 9%;
+    background-color: beige;
+    height: 300px;
+    width: 800px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+a {
+    margin-top: 10%;
+    text-decoration: none;
+    background: #aeaeae;
+    border: 2px;
+    border-radius: 40px;
+    padding: 20px;
+    color: rgb(41, 114, 31);
+}
+p {
+    margin-bottom: 60px;
+}

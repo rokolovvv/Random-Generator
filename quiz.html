@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Generator</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="main">
+    <h1>Quiz Generator</h1>
+    <label for="participants">Number of Participants:</label>
+    <input type="number" id="participants" name="participants">
+    <label for="winners">Number of Winners:</label>
+    <input type="number" id="winners" name="winners">
+    <div>
+    <button onclick="generateWinners()">Start</button>
+    </div>
+    <p id="result"></p>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>

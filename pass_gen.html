@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pass_gen.css">
+</head>
+<body>
+    <div class='main'>
+    <h1>Password Generator</h1>
+    <label for="length">Password Length:</label>
+    <input type="number" id="length" name="length">
+    <div>
+    <label><input type="checkbox" id="includeDigits" name="includeDigits"> Include Digits</label>
+    <label><input type="checkbox" id="includeUpper" name="includeUpper"> Include Uppercase Letters</label>
+    <label><input type="checkbox" id="includeLower" name="includeLower"> Include Lowercase Letters</label>
+    </div>
+    <button onclick="generatePassword()">Start</button>
+    <p id="password"></p>
+    </div>
+
+    <script src="pass_gen.js"></script>
+</body>
+</html>
